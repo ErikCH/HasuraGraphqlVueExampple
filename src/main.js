@@ -9,7 +9,7 @@ import VueApollo from 'vue-apollo';
 Vue.config.productionTip = false;
 
 const httpLink = new HttpLink({
-  uri: 'https://hasura-test-erikh.herokuapp.com/v1alpha1/graphql'
+  uri: ''
 });
 
 const apolloClient = new ApolloClient({
